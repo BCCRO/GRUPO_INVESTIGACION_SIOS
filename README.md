@@ -53,9 +53,22 @@ Este proyecto realiza un análisis de sentimientos y de frecuencia de palabras e
   plt.show()
 ```
 ## Instalación y Ejecución :hammer_and_wrench:
-1. Clonar el repositorio.
-` git clone`
-
+1. Clona este repositorio o descarga los archivos del proyecto.\
+   `https://github.com/BCCRO/GRUPO_SIOS.git`
+2. Instala las dependencias necesarias utilizando pip.
+   `pip install pandas matplotlib nltk wordcloud`
+3. Descarga los recursos necesarios para NLTK.
+   ```python
+    import nltk
+    nltk.download('vader_lexicon')
+    nltk.download('punkt')
+    nltk.download('stopwords')
+   ```
+4. Asegúrate de tener un archivo CSV en formato UTF-8 con las respuestas de las entrevistas. El archivo debe tener un formato en el que cada columna representa una pregunta y cada fila representa las respuestas de un entrevistado.
+## Autores :woman_technologist::man_technologist:
+* Briyid Catalina Cruz Ostos (bccruzo@udistrital.edu.co).
+* Brayan Elian Jaimes Peña (brepenaj@udistrital.edu.co).
+* Brayan Alejandro Riveros Rodríguez (bariverosr@udistrital.edu.co).
 
 
 
